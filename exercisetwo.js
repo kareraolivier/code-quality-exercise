@@ -28,5 +28,3 @@ function romanToNumber(roman) {
 
   return result;
 }
-
-console.log(romanToNumber("VII"));
