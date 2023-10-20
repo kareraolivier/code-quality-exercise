@@ -12,5 +12,10 @@
  */
 
 function calculateAverage(numbers) {
-  return numbers.reduce((cur, acc) => cur + acc, 0) / numbers.length;
+  return (
+    numbers.reduce(
+      (accumulator, currentValue) => currentValue + accumulator,
+      0
+    ) / numbers.length
+  );
 }

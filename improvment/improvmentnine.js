@@ -6,9 +6,9 @@
 // }
 
 const calculateMatrixSum = (matrix) => {
-  let sum = 0;
-  matrix.map((raw) => {
-    for (let j = 0; j < raw.length; j++) sum += raw[j];
-  });
-  return sum;
+  return matrix.reduce(
+    (acc, cur) =>
+      acc + cur.reduce((accumulator, current) => accumulator + current),
+    0
+  );
 };
