@@ -2,4 +2,5 @@
 //   return x * y;
 // }
 
-const mult = (x, y) => x * y;
+const multiples = (x, y) => x * y;
+multiples();

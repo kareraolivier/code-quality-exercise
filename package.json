@@ -1,0 +1,15 @@
+{
+  "name": "code-quality-exercise",
+  "version": "1.0.0",
+  "description": "eslint project",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint improvment --cache"
+  },
+  "author": "karera",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^8.52.0",
+    "eslint-plugin-unicorn": "^48.0.1"
+  }
+}

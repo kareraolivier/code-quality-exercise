@@ -11,3 +11,4 @@ const calculateMatrixSum = (matrix) =>
       acc + cur.reduce((accumulator, current) => accumulator + current, 0),
     0
   );
+calculateMatrixSum();

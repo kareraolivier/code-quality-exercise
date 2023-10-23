@@ -14,3 +14,4 @@
 const calculateAverage = (numbers) =>
   numbers.reduce((accumulator, currentValue) => currentValue + accumulator, 0) /
   numbers.length;
+calculateAverage();
