@@ -7,8 +7,8 @@
 
 const calculateMatrixSum = (matrix) =>
   matrix.reduce(
-    (acc, cur) =>
-      acc + cur.reduce((accumulator, current) => accumulator + current, 0),
-    0
+    (accumulator, current) =>
+      accumulator +
+      current.reduce((accumulator, current) => accumulator + current)
   );
 calculateMatrixSum();

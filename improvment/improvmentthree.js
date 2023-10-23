@@ -6,5 +6,5 @@
 //   return reversed;
 // }
 
-const reverseString = (str) => [...str].reverse().join("");
+const reverseString = (string) => [...string].reverse().join("");
 reverseString();
