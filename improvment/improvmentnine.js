@@ -5,10 +5,9 @@
 //   return sum;
 // }
 
-const calculateMatrixSum = (matrix) => {
-  return matrix.reduce(
+const calculateMatrixSum = (matrix) =>
+  matrix.reduce(
     (acc, cur) =>
-      acc + cur.reduce((accumulator, current) => accumulator + current),
+      acc + cur.reduce((accumulator, current) => accumulator + current, 0),
     0
   );
-};

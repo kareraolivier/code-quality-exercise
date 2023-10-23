@@ -11,11 +11,6 @@
 }
  */
 
-function calculateAverage(numbers) {
-  return (
-    numbers.reduce(
-      (accumulator, currentValue) => currentValue + accumulator,
-      0
-    ) / numbers.length
-  );
-}
+const calculateAverage = (numbers) =>
+  numbers.reduce((accumulator, currentValue) => currentValue + accumulator, 0) /
+  numbers.length;
