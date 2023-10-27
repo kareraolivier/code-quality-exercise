@@ -2,12 +2,10 @@
 
 const fibonacci = (fibonacci) => {
   let array = [0, 1];
-  while (array.length < fibonacci) {
-    let sum = array.at(-1) + array.at(-2);
+  for (let sum = 0; array.length < fibonacci; sum = 0) {
+    sum = array.at(-1) + array.at(-2);
     array.push(sum);
-    sum = 0;
   }
-
   return array;
 };
 console.log(fibonacci(5));
