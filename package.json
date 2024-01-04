@@ -4,7 +4,8 @@
   "description": "eslint project",
   "main": "index.js",
   "scripts": {
-    "test": "eslint exercice --cache"
+    "test": "eslint improvment --cache"
+    "test": "eslint src --cache"
   },
   "author": "karera",
   "license": "MIT",
