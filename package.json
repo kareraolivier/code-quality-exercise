@@ -4,6 +4,7 @@
   "description": "eslint project",
   "main": "index.js",
   "scripts": {
+    "test": "eslint improvment --cache"
     "test": "eslint src --cache"
   },
   "author": "karera",
